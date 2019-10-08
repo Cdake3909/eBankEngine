@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.eBankEngine.dao.BankInfoDao">
+
+    <select id="getBankIdByBankNo" resultType="java.lang.String">
+        select bank_id from bank_info where bank_no =#{bankNo}
+    </select>
+
+    <resultMap id="BankInfoResult" type="com.example.eBankEngine.pay.model.BankInfo">
+        <result property="bankNo" column="bank_no"></result>
+        <result property="payCompany" column="pay_company"></result>
+    </resultMap>
+    <select id="getAllBanks" resultMap="BankInfoResult">
+        select bank_no,pay_company from bank_info
+    </select>
+</mapper>
