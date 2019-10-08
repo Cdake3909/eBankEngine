@@ -12,6 +12,7 @@ public class BankInfoService {
     @Autowired
     private BankInfoDao bankInfoDao;
     public List<BankInfo> getAllBanks(){
+        /***/
           List list =bankInfoDao.getAllBanks();
           return list;
     }

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e24a0928-bb88-4acc-9d34-641642c7069f" name="Default Changelist" comment="" />
+    <list default="true" id="e24a0928-bb88-4acc-9d34-641642c7069f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/eBankEngine/service/BankInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/eBankEngine/service/BankInfoService.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,6 +140,7 @@
       <workItem from="1570356753917" duration="2396000" />
       <workItem from="1570374195368" duration="791000" />
       <workItem from="1570426607426" duration="4237000" />
+      <workItem from="1570498414534" duration="209000" />
     </task>
     <task id="LOCAL-00001" summary="银行引擎代码提交">
       <created>1570457413455</created>
@@ -151,6 +154,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="银行引擎代码提交" />
@@ -166,7 +180,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/eBankEngine/service/BankInfoService.java</url>
-          <line>14</line>
+          <line>15</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
